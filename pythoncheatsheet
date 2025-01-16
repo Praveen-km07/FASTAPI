@@ -1,0 +1,30 @@
+1.# To find the list of python libraries installed
+pip list
+
+2. #To know pip version
+python -m pip --version
+
+3.# create virtual environment
+python -m venv fastapienv
+
+4.To activate virtual environment
+fastapienv\Scripts\activate.bat
+
+5.#command to install fastapi
+pip install fastapi
+
+6.#command to install uvicorn
+pip install "uvicorn[standard]"
+
+7.# deactivate virtual environment
+deactivate
+
+8.#To run the fastapi in production mode
+fastapi run books.py
+
+9.# To run the fastapi in dev mode
+fastapi dev books.py
+
+10.# To run uvicorn
+uvicorn books:app --reload
+
